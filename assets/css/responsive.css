@@ -1,0 +1,86 @@
+@media (max-width:991px){
+/*  :: 3.0 Common Css */
+h1,h2{
+    font-size:2.5rem;
+}
+.ipad_px_30{
+    padding: 0 1.875rem;
+}
+/* :: 4.0 Header Css */
+.navbar{
+    padding-top: 0.625rem;
+    padding-bottom: 0.75rem;
+}
+.navbar-brand{
+    width: 50%;
+}
+.navbar-brand img{
+    max-width: 60%;
+}
+.navbar-toggler{
+    padding-right: 0;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    color: var(--text-white);
+    height: 1.5em;
+    width: 1.5em;
+    
+}
+.navbar-sticky-on .navbar-toggler-icon{
+    color: var(--text-black);
+}
+.navbar .navbar-nav{
+    background: var(--bg-white);
+    border-radius: 0.188rem;
+    text-align: center;
+}
+.navbar .navbar-nav .nav-link{
+    padding: 0.625rem 1.5rem;
+    color: var(--text-light-gray);
+}
+
+/*:: 5.0 Home Css  */
+
+#home {
+    padding-top: 7.03rem;
+}
+#home .row{
+    flex-direction: column-reverse;
+    text-align: center;
+}
+#home .home_text{
+    text-align: center;
+    margin-bottom: 3.90rem;
+}
+#home .home-download-btn{
+    justify-content: center;
+}
+#home .home-image{
+    text-align: center;
+}
+#hoem .home-image{
+    max-width: 60%;
+}
+}
+@media(max-width:767px){
+
+/*:: 5.0 Home Css  */
+#home{
+    padding-top: 6.5rem;
+}
+#home .home_text h2{
+    font-size: 2.938rem;
+    line-height: 3.938rem;
+}
+#home .home-download-btn .btn{
+    justify-content: center;
+}
+#home .home-image{
+    text-align: center;
+    transform: rotate(0deg);
+}
+    
+}
