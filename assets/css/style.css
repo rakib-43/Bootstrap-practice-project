@@ -87,13 +87,14 @@ h3{
     font-weight: 400;
     color: var(--text-black);
     line-height: 2.375rem;
+    
 }
 
 h5{
-    font-size: 1.125rem;
+    font-size: 1.150rem;
     font-weight: 700;
     letter-spacing: 0.063rem;
-    line-height: 1.688rem;
+    line-height: 2.48rem;
     color: var(--text-light-pink);
     text-transform: uppercase;
 }
@@ -174,6 +175,7 @@ img{
     padding: 100px 0;
 }
 
+
 /*
 *****
 :: 4.0 Header Css 
@@ -242,7 +244,7 @@ img{
 
 /*
 *****
-:: 4.0 Home Css 
+:: 5.0 Home Css 
 *****
 */
 
@@ -312,6 +314,40 @@ img{
         transform: translateY(-3.5rem);
     }
 }
+
+/*
+*****
+:: 6.0 Counter Css 
+*****
+*/
+.counter_area{
+    padding: 6.875rem 0 1.875rem;
+}
+.single_counter{
+    position: relative;
+}
+.single_counter span{
+    font-size: 3rem;
+    background: var(--background);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.single_counter::after{
+    position: absolute;
+    content: '';
+    height: 70%;
+    width: 0.063rem;
+    background-color: var(--bg-black);
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    opacity: 0.15;
+}
+.single_counter:last-child::after{
+    display: none;
+}
+
+
 
 
 
