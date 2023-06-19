@@ -206,7 +206,7 @@ img{
 /* On scroll fixed navbar */
 .navbar-sticky-on .navbar-nav .nav-link:hover,
 .navbar-sticky-on .navbar-nav .nav-link.active{
-    color: var(--text-light-gray) !important;
+    color: var(--bg-light-pink) !important;
 }
 .navbar-sticky-on .navbar-nav .nav-link{
     color: var(--text-light-gray);
