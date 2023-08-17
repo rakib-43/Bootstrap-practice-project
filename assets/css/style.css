@@ -428,6 +428,33 @@ img{
     font-size: 0.938rem;
 }
 
+/*
+*****
+:: 7.0 Feature Css 
+*****
+*/
+#features .title{
+    height: 880px;
+    padding-top: 100px;
+    text-align: left;
+    margin-top: 0;
+    background: url(../images/feature-bg.png) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover; 
+}
+#features .title h2{
+    margin-bottom: 0.813rem;
+}
+.features_middle h2,
+.features_middle p{
+    color: var(--bg-white);
+}
+.feature_img{
+    text-align: right;
+}
+.feature_img img{
+    max-width: 70%;
+}
 
 
 
