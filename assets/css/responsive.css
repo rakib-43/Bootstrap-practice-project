@@ -1,3 +1,10 @@
+@media (max-width:1030px){
+/*  :: 3.0 Features Css */
+.margin_top_up{
+    margin-top: -25rem;
+}
+}
+
 @media (max-width:991px){
 /*  :: 3.0 Common Css */
 h1,h2{
@@ -10,6 +17,7 @@ h1,h2{
 .navbar{
     padding-top: 0.625rem;
     padding-bottom: 0.75rem;
+    overflow: hidden;
 }
 .navbar-brand{
     width: 50%;
@@ -61,10 +69,16 @@ h1,h2{
 #home .home-image{
     text-align: center;
 }
-#hoem .home-image{
+#home .home-image{
     max-width: 60%;
 }
+/*:: 10.0 Pricing Css  */
+.single_price{
+    margin-bottom: 2.5rem;
 }
+}
+
+
 @media(max-width:767px){
 
 /*:: 5.0 Home Css  */
@@ -82,5 +96,49 @@ h1,h2{
     text-align: center;
     transform: rotate(0deg);
 }
-    
+
+/*:: 7.0 Features Css  */
+.feature_img{
+    text-align: center;
+    margin-top: 1.63rem;
+}
+.feature_img img{
+    max-width: 95%;
+}
+.features_middle{
+    text-align: center;
+}
+.margin_top_up{
+    margin-top: -10rem;
+}
+
+}
+
+/*:: 6.0 Counter Css  */
+.single_counter:nth-child(2):after{
+    display: none;
+}
+
+
+/*:: 7.0 Features Css  */
+@media(max-width:1030px){
+    .margin_top_up{
+        margin-top: -25rem;
+    }
+}
+@media(max-width:745px){
+    .feature_img{
+        text-align: center;
+        margin-top: 2.3rem;
+    }
+    .feature_img img{
+        max-width: 40%;
+    }
+    .features_middle{
+        text-align: center;
+    }
+    .margin_top_up{
+        margin-top: -15rem;
+    }
+
 }

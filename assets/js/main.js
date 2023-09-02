@@ -48,3 +48,27 @@ document.addEventListener("DOMContentLoaded",() =>{
     counter("count3", 0,30,4000);
     counter("count4", 0,10,2000);
 });
+
+//App screen
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+
+
+
+
+
