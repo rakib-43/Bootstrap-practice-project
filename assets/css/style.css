@@ -282,6 +282,7 @@ img{
    display: flex;
    align-items: center;
    justify-content: center;
+   font-size: 1.10rem;
 }
 #home .home-download-btn .btn:first-child{
     margin-left: 0;
@@ -448,7 +449,7 @@ img{
 }
 .features_middle h2,
 .features_middle p{
-    color: var(--bg-white);
+    color: var(--text-white);
 }
 .feature_img{
     text-align: right;
@@ -468,6 +469,12 @@ img{
     -webkit-box-shadow: 0 0.938rem 2.5rem 0 rgb(0 0 0/8%);
     box-shadow: 0 0.938rem 2.5rem 0 rgb(0 0 0/8%);
     transition: all .2s ease-in;
+}
+.single_feature p{
+    color: var(--text-light-black);
+}
+.single_feature p:hover{
+    color: var(--bg-white);
 }
 .single_feature:hover{
     color: var(--text-white);
@@ -641,6 +648,54 @@ img{
 }
 .foter a,p{
     color: var(--text-white);
+}
+
+/*
+*****
+:: 13.0 Scroll Top Css 
+*****
+*/
+.scrolling{
+    margin-top: -6rem;
+    margin-left: 81rem; 
+    width: 2.5rem;
+    height: 1.99rem;
+    padding-top: 0.20rem;
+    padding-left: 0.12rem;
+    padding-right: 0.12rem;
+    position: absolute;
+    border-radius: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    background: var(--bg-light-pink);
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+.scrolling{
+    position: relative;
+    margin-top: -8.75rem ;
+}
+#scrollUp{
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    height: 2.81rem;
+    width: 2.5rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    display: none;
+    background: var(--background);
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+#scrollUp span{
+    line-height: 2.625rem;
+}
+#scrollUp .scrollActive{
+    display: block;
 }
 
 

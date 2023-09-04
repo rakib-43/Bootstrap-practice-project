@@ -1,8 +1,13 @@
+
 @media (max-width:1030px){
 /*  :: 3.0 Features Css */
 .margin_top_up{
     margin-top: -25rem;
 }
+/*  :: 13.0 Features Css */
+    .scrolling{
+        overflow: hidden;
+    }
 }
 
 @media (max-width:991px){
@@ -75,6 +80,10 @@ h1,h2{
 /*:: 10.0 Pricing Css  */
 .single_price{
     margin-bottom: 2.5rem;
+}
+/*  :: 13.0 Features Css */
+.scrolling{
+    display: none;
 }
 }
 
